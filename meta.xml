@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="local_manifests" path="local_manifests" remote="metad" revision="cm-12.1" />
+  <project name="local_manifests" path="local_manifests" remote="metad" revision="lp5.1" />
 
   <!-- external Github remotes for MaKe-->
   <remote name="omnirom" fetch="https://github.com/omnirom" />
