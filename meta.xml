@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="local_manifests" path="local_manifests" remote="metad" revision="cm-12.1" />
+
+  <!-- external Github remotes for MaKe-->
+  <remote name="omnirom" fetch="https://github.com/omnirom" />
+  <remote name="iSchneiderle" fetch="https://github.com/iSchneiderle" />
+  <remote name="Mardon" fetch="https://github.com/MardonHH" />
+  <remote name="metad" fetch="https://github.com/MetalliumDevices" />
+  <remote name="make" fetch="https://github.com/MaKe-Rom" />
+  
+  <!-- Xperia Z adapted for Meta-->
+  <!--  <remove-project path="device/sony/yuga" name="CyanogenMod/android_device_sony_yuga" /> -->
+  <!--  <project name="android_device_sony_yuga" path="device/sony/yuga" remote="make" revision="cm-12.1" /> -->
+  <!-- <remove-project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" /> -->
+  <!--  <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="make" revision="cm-12.1" /> -->
+  <!--  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.1" /> -->
+  <!--  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" revision="cm-12.1" /> -->
+  <!--  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" revision="cm-12.1" /> -->
+  <!--  <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" revision="cm-12.1" /> -->
+  <!--  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" revision="cm-12.0" /> -->
+  <!--  <project path="device/sony/msm8960-common" name="CyanogenMod/android_device_sony_msm8960-common" revision="cm-12.1" /> -->
+  <!--  <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" revision="cm-12.1" /> -->
+  
+  <!--  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" /> -->
+  <!--  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" revision="cm-12.1" /> -->
+  
+  <!-- LG G3 adapted for MaKe -->
+  <!-- <project name="android_device_lge_d855" path="device/lge/d855" remote="make" revision="cm-12.1" /> -->
+  <!-- <project path="device/lge/g3-common" name="CyanogenMod/android_device_lge_g3-common" revision="cm-12.1" /> -->
+  <!-- <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="make" revision="cm-12.1" /> -->
+  
+  <!-- LG G2 adapted for Meta -->
+  <project name="android_device_lge_d802" path="device/lge/d802" remote="metad" revision="lp5.1" />
+  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="metad" revision="lp5.1" />
+  <project name="android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="metad" revision="lp5.1" />
+  
+  <!-- proprietary for LG G2/G3 and common qcom device -->
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.1" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="metad" revision="lp5.1" />
+
+</manifest>
